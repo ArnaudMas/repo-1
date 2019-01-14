@@ -1,0 +1,25 @@
+arnaud
+C:\WINDOWS\system32>curl ipinfo/ 132.213.160.86
+curl: (6) Could not resolve host: ipinfo
+curl: (7) Failed to connect to 132.213.160.86 port 80: Connection refused
+
+C:\WINDOWS\system32>curl ipinfo.io/ 132.213.160.86
+{
+  "ip": "132.213.160.86",
+  "city": "Gatineau",
+  "region": "Quebec",
+  "country": "CA",
+  "loc": "45.4400,-75.7119",
+  "postal": "J8X",
+  "org": "AS376 Reseau  d'informations scientifiques du Quebec (RISQ)"
+}curl: (7) Failed to connect to 132.213.160.86 port 80: Connection refused
+
+C:\WINDOWS\system32>curl ipinfo.io/132.213.160.86
+{
+  "ip": "132.213.160.86",
+  "city": "Gatineau",
+  "region": "Quebec",
+  "country": "CA",
+  "loc": "45.4400,-75.7119",
+  "postal": "J8X",
+  "org": "AS376 Reseau  d'informations scientifiques du Quebec (RISQ)"
